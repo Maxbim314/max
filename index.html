@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>EL MAX</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <header class="header">
       <div class="">
-        <figure class="logo">
-          <img src="images/logo.png" alt="Logo de el Max">
+        <figure class="logoContainer">
+          <img class="logo" src="images/logo.png" alt="Logo de el Max">
         </figure>
         <nav class="menu">
           <ol>
@@ -30,20 +32,23 @@
 
     <section class="hero"> <!-- NOTE: Sección principal -->
       <h1 class="hero_title">
-        Una breve descripcion sobre mi persona introducción
+        Hola! Soy <strong>Max Ventura</strong> <br> Apasionado de la
+         <strong>Ingeniería civil</strong> <br> y me gusta <strong>la Programación.</strong>
       </h1>
       <figure class="hero_imageContainer">
-        <img class="hero_image" src="images/hero.png" alt="Imagen de el Max">
+        <!-- <img class="hero_image" src="images/hero.png" alt="Imagen de el Max"> -->
       </figure>
     </section>
 
     <section class="portfolio" id="proyectos"> <!-- NOTE: Sección de proyectos -->
       <h2 class="portfolio_title">Experiencia Laboral</h2>
       <article class="project">
-        <h3 class="project_title">Empresa 002</h3>
-        <h6 class="project_tasks">Cargo</h6>
-        <p class="project_date"><small><strong>Fecha: </strong>12/04/2020 </small> </p>
-        <p class="project_description">Aquí va la descripción del actual proyeto ...</p>
+        <div class="project_details">
+          <h3 class="project_title">Empresa 002</h3>
+          <h6 class="project_tasks">Cargo</h6>
+          <p class="project_date"><small><strong>Fecha: </strong>12/04/2020 </small> </p>
+          <p class="project_description">Aquí va la descripción del actual proyeto ...</p>
+        </div>
         <figure class="project_imageContainer">
           <img class="project_image" src="images/project_002.png" alt="Imagen proyecto 002">
         </figure>
@@ -93,7 +98,7 @@
       </form>
     </section>
 
-    <footer class="footer">aqui va el footer</footer>
+    <footer class="footer">aqui va el footerr</footer>
 
   </body>
 </html>

@@ -1,1 +1,52 @@
 /* reglas-selectores-declaraciones-propiedades-valores */
+
+
+body{
+  font-family: 'Noto Sans', 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  color: white;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+h1 strong{
+  color: #f0bd24;
+}
+
+.header{
+  background-color: #052c4e;
+}
+
+.header a{
+  color: white;
+
+}
+
+.logo{
+  width: 300px;
+}
+
+.hero{
+  height: 300px;
+  background-color: #063352;
+  background-image: url("../images/hero.png");
+  background-size: 250px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.project_details{
+  width: 500px;
+}
