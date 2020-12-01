@@ -78,7 +78,7 @@ header ol,header ul,header li{
   display: flex;
   align-items: center;
 }
-.hero_container{
+.box_container{
   width: 900px;
   margin: auto;
   height: inherit;
@@ -86,6 +86,9 @@ header ol,header ul,header li{
   align-items: center;
   /* border: 1px solid red; */
   justify-content: space-between;
+}
+.hobbie_container{
+  width: 1100px;
 }
 .portfolio{
   margin: 0px;
@@ -141,7 +144,7 @@ header ol,header ul,header li{
 .hobbie{
   background-color: #2f546e;
   margin: 20px;
-  width: 480px;
+  width: 550px;
   border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;
@@ -156,7 +159,7 @@ header ol,header ul,header li{
 .hobbie_image{
   object-fit: cover;
   margin: 0px;
-  width: 480px;
+  width: inherit;
   height: 200px;
   background-color: white;
 }
@@ -192,6 +195,7 @@ header ol,header ul,header li{
 }
 .contact_title{
   margin: 0px;
+  color: white;
 }
 .contact_lists{
   margin: 0;
@@ -200,13 +204,18 @@ header ol,header ul,header li{
   justify-content: space-between;
 }
 .contact_redesLists{
-
 }
 .contact_redes{
   width: 50px;
   height: 50px;
   /* border: 1px solid red; */
   margin: 0 20px;
+  border-radius: 50%;
+}
+.contact_direct label{
+  font-weight: 300;
+  /* font-style: italic; */
+  color: white;
 }
 
 /*
